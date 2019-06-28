@@ -1,0 +1,22 @@
+.registerPanel {
+    background-color: #dbd5d5;
+    width: 250px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 3px;
+    border: 1px solid #a39e9e;
+}
+
+.registerPanel > * + * {
+    margin-top: 15px;
+}
+
+.registerPanel-fields {
+    display: block;
+}
+
+.registerPanel-actions {
+    display: block;
+    text-align: right;
+}

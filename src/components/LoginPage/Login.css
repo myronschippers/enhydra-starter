@@ -1,0 +1,22 @@
+.loginPanel {
+    background-color: #dbd5d5;
+    width: 250px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 3px;
+    border: 1px solid #a39e9e;
+}
+
+.loginPanel > * + * {
+    margin-top: 15px;
+}
+
+.loginPanel-fields {
+    display: block;
+}
+
+.loginPanel-actions {
+    display: block;
+    text-align: right;
+}

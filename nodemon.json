@@ -1,0 +1,15 @@
+{
+    "watch": [
+        "server"
+    ],
+    "ext": "ts",
+    "ignore": [
+        "*.test.ts",
+        "src"
+    ],
+    "module": "commonjs",
+    "delay": "3",
+    "execMap": {
+        "ts": "ts-node"
+    }
+}
